@@ -1,0 +1,24 @@
+Filled container. 
+Container contains 10 elements.
+1 :  It is OOP language: Invented in 1998, has multiple inharitance.
+
+2 :  This is Procedural language: Invented in 1995, don't have abstract types of data.
+
+3 :  It is OOP language: Invented in 1987, has interface inharitance.
+
+4 :  This is Procedural language: Invented in 1981, have abstract types of data.
+
+5 :  It is OOP language: Invented in 2016, has interface inharitance.
+
+6 :  It is OOP language: Invented in 2017, has multiple inharitance.
+
+7 :  It is OOP language: Invented in 2017, has single inharitance.
+
+8 :  This is Procedural language: Invented in 1993, have abstract types of data.
+
+9 :  This is Procedural language: Invented in 1992, don't have abstract types of data.
+
+10 :  This is Procedural language: Invented in 1956, have abstract types of data.
+
+Empty container. 
+Container contains 0 elements.
