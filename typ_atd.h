@@ -1,3 +1,3 @@
 #pragma once
 
-enum typ { OOP, PROCED };
+enum typ { OOP, PROCED, FUNCTIONAL };
