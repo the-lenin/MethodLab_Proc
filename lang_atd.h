@@ -5,4 +5,5 @@
 struct lang {
 	typ t;
 	short age;
+	int reference;
 };
