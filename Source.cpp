@@ -13,6 +13,8 @@ void main(int arc, char* argv[]) {
 	ClearContainer(c);
 	In(c, fin);
 	fout << "Filled container. " << endl;
+	Sort(c);
+	fout << "Container sorted." << endl;
 	Out(c, fout);
 	ClearContainer(c);
 	fout << "Empty container. " << endl;
