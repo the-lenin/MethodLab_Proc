@@ -17,5 +17,5 @@ void Out(oop &o, ofstream &ofst) {
 	default:
 		break;
 	}
-	ofst << " inharitance." << endl;
+	ofst << " inharitance.";
 }

@@ -2,6 +2,7 @@
 
 void Out(oop &o, ofstream &ofst);
 void Out(proced &p, ofstream &ofst);
+int YearsOld(lang &l);
 
 void Out(lang *l, ofstream &ofst) {
 	switch (l->t) {
@@ -14,5 +15,5 @@ void Out(lang *l, ofstream &ofst) {
 	default:
 		ofst << "Incorrect language!" << endl;
 	}
-	
+	ofst << "It is " << YearsOld(*l) << " years old." << endl;
 }
