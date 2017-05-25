@@ -16,6 +16,7 @@ void main(int arc, char* argv[]) {
 	Sort(c);
 	fout << "Container sorted." << endl;
 	Out(c, fout);
+	OutOnlyProced(c, fout);
 	ClearContainer(c);
 	fout << "Empty container. " << endl;
 	Out(c, fout);
