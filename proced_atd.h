@@ -5,5 +5,7 @@
 struct proced {
 	typ t;
 	short age;
+	int reference;
+
 	bool abstr;
 };

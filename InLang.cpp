@@ -15,6 +15,7 @@ lang* In(ifstream &ifst) {
 		o = new oop;
 		o->t = OOP;
 		In(*o, ifst);
+		ifst >> o->reference;
 		l = (lang*)o;
 		return l;
 		break;
@@ -22,6 +23,7 @@ lang* In(ifstream &ifst) {
 		p = new proced;
 		p->t = PROCED;
 		In(*p, ifst);
+		ifst >> p->reference;
 		l = (lang*)p;
 		return l;
 		break;
