@@ -5,7 +5,7 @@
 #include "typ_atd.h"
 #include "list_atd.h"
 #include "container_atd.h"
-
+#include "functional_atd.h"
 #include <stdio.h>
 #include <iostream>
 #include <Windows.h>

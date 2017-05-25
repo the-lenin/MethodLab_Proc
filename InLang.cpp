@@ -2,11 +2,13 @@
 
 void In(oop &o, ifstream &ifst);
 void In(proced &p, ifstream &ifst);
+void In(functional &f, ifstream &ifst);
 
 lang* In(ifstream &ifst) {
 	lang *l;
 	oop* o;
 	proced* p;
+	functional* f;
 	int type;
 	ifst >> type;
 	switch (type)
@@ -25,6 +27,13 @@ lang* In(ifstream &ifst) {
 		In(*p, ifst);
 		ifst >> p->reference;
 		l = (lang*)p;
+		return l;
+		break;
+	case 2:
+		f = new functional;
+		f->t = FUNCTIONAL;
+		In(*f, ifst);
+		l = (lang*)f;
 		return l;
 		break;
 	default:
