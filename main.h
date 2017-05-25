@@ -19,6 +19,7 @@ using namespace std;
 void ClearContainer(container &c);
 void In(container &c, ifstream &ifst);
 void Out(container &c, ofstream &ofst);
+void OutOnlyProced(container &c, ofstream &ofst);
 
 
 

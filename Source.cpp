@@ -14,6 +14,7 @@ void main(int arc, char* argv[]) {
 	In(c, fin);
 	fout << "Filled container. " << endl;
 	Out(c, fout);
+	OutOnlyProced(c, fout);
 	ClearContainer(c);
 	fout << "Empty container. " << endl;
 	Out(c, fout);
