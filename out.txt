@@ -1,0 +1,59 @@
+Filled container. 
+Container sorted.
+Container contains 12 elements.
+1 :  This is Procedural language: Invented in 1956, have abstract types of data.It is 61 years old.
+	Language mentioned in the Inet 40 times.
+
+2 :  It is Functional language: Invented in 1957, has  typification and don't support 'lazy' calculating.It is 60 years old.
+	Language mentioned in the Inet 40000 times.
+
+3 :  This is Procedural language: Invented in 1981, have abstract types of data.It is 36 years old.
+	Language mentioned in the Inet 10003 times.
+
+4 :  It is OOP language: Invented in 1987, has interface inharitance.It is 30 years old.
+	Language mentioned in the Inet 10002 times.
+
+5 :  This is Procedural language: Invented in 1992, don't have abstract types of data.It is 25 years old.
+	Language mentioned in the Inet 30 times.
+
+6 :  This is Procedural language: Invented in 1993, have abstract types of data.It is 24 years old.
+	Language mentioned in the Inet 10 times.
+
+7 :  It is Functional language: Invented in 1993, has  typification and don't support 'lazy' calculating.It is 24 years old.
+	Language mentioned in the Inet 30000 times.
+
+8 :  This is Procedural language: Invented in 1995, don't have abstract types of data.It is 22 years old.
+	Language mentioned in the Inet 10001 times.
+
+9 :  It is OOP language: Invented in 1998, has multiple inharitance.It is 19 years old.
+	Language mentioned in the Inet 10000 times.
+
+10 :  It is OOP language: Invented in 2016, has interface inharitance.It is 1 years old.
+	Language mentioned in the Inet 10004 times.
+
+11 :  It is OOP language: Invented in 2017, has multiple inharitance.It is 0 years old.
+	Language mentioned in the Inet 20 times.
+
+12 :  It is OOP language: Invented in 2017, has single inharitance.It is 0 years old.
+	Language mentioned in the Inet 1000 times.
+
+Only rectangles.
+1: This is Procedural language: Invented in 1956, have abstract types of data.It is 61 years old.
+	Language mentioned in the Inet 40 times.
+2: 
+3: This is Procedural language: Invented in 1981, have abstract types of data.It is 36 years old.
+	Language mentioned in the Inet 10003 times.
+4: 
+5: This is Procedural language: Invented in 1992, don't have abstract types of data.It is 25 years old.
+	Language mentioned in the Inet 30 times.
+6: This is Procedural language: Invented in 1993, have abstract types of data.It is 24 years old.
+	Language mentioned in the Inet 10 times.
+7: 
+8: This is Procedural language: Invented in 1995, don't have abstract types of data.It is 22 years old.
+	Language mentioned in the Inet 10001 times.
+9: 
+10: 
+11: 
+12: 
+Empty container. 
+Container contains 0 elements.

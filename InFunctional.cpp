@@ -6,7 +6,6 @@ void In(functional &f, ifstream &ifst) {
 	ifst >> f.age >> typific >> f.lazycalc;
 	switch (typific)
 	{
-	
 	case 1:
 		f.typ = functional::typification::DYNAMIC;
 		break;

@@ -14,5 +14,4 @@ void Out(container &c, ofstream &ofst) {
 		cur = cur->next;
 		++s;
 	}
-
 }

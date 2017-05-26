@@ -4,7 +4,7 @@ void In(oop &o, ifstream &ifst);
 void In(proced &p, ifstream &ifst);
 void In(functional &f, ifstream &ifst);
 
-lang* In(ifstream &ifst) {
+lang* In(ifstream &ifst) { //make code shorter and fix bug with reference in functional
 	lang *l;
 	oop* o;
 	proced* p;
@@ -17,27 +17,29 @@ lang* In(ifstream &ifst) {
 		o = new oop;
 		o->t = OOP;
 		In(*o, ifst);
-		ifst >> o->reference;
+//		ifst >> o->reference;
 		l = (lang*)o;
-		return l;
+//		return l;
 		break;
 	case 1:
 		p = new proced;
 		p->t = PROCED;
 		In(*p, ifst);
-		ifst >> p->reference;
+//		ifst >> p->reference;
 		l = (lang*)p;
-		return l;
+//		return l;
 		break;
 	case 2:
 		f = new functional;
 		f->t = FUNCTIONAL;
 		In(*f, ifst);
 		l = (lang*)f;
-		return l;
+//		return l;
 		break;
 	default:
 		return NULL;
 		break;
 	}
+	ifst >> l->reference;
+	return l;
 }

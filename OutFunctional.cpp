@@ -19,7 +19,4 @@ void Out(functional &f, ofstream &ofst) {
 		ofst << "support 'lazy' calculating.";
 	else
 		ofst << "don't support 'lazy' calculating.";
-
-	ofst << endl;
-
 }
