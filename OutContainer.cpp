@@ -2,7 +2,8 @@
 
 void Out(lang *l, ofstream &ofst);
 
-void Out(container &c, ofstream &ofst) {
+void Out(container &c, ofstream &ofst) 
+{
 	CheckOutFile(ofst);
 	ofst << "Container contains " << c.NUM	<< " elements." << endl;
 	list* cur = c.cont;
@@ -15,5 +16,4 @@ void Out(container &c, ofstream &ofst) {
 		cur = cur->next;
 		++s;
 	}
-
 }

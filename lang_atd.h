@@ -2,7 +2,8 @@
 
 #include "typ_atd.h"
 
-struct lang {
+struct lang 
+{
 	typ t;
 	short age;
 	int reference;

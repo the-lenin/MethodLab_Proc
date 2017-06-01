@@ -1,5 +1,5 @@
 #include "main.h"
-using namespace std;
+
 
 void CheckInFile(ifstream &file)
 {

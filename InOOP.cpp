@@ -1,7 +1,8 @@
 #include "main.h"
 
 
-void In(oop &o, ifstream &ifst) {
+void In(oop &o, ifstream &ifst) 
+{
 	int inh;
 	ifst >> inh;
 	CheckInValue(ifst);
@@ -9,13 +10,13 @@ void In(oop &o, ifstream &ifst) {
 	switch (inh)
 	{
 	case 0:
-		o.a = oop::inheritance::single;
+		o.a = oop::inheritance::SINGLE;
 		break;
 	case 1:
-		o.a = oop::inheritance::multiple;
+		o.a = oop::inheritance::MULTIPLE;
 		break;
 	case 2:
-		o.a = oop::inheritance::interf;
+		o.a = oop::inheritance::INTERF;
 		break;
 	default:
 		break;

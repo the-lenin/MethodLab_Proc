@@ -1,7 +1,8 @@
 #include "main.h"
 
 
-void In(functional &f, ifstream &ifst) {
+void In(functional &f, ifstream &ifst) 
+{
 	int typific;
 	ifst >> typific;
 	CheckInValue(ifst);

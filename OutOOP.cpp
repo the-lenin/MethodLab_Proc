@@ -1,7 +1,8 @@
 #include "main.h"
 
 
-void Out(oop &o, ofstream &ofst) {
+void Out(oop &o, ofstream &ofst) 
+{
 	CheckOutFile(ofst);
 	ofst << "It is OOP language: Invented in " << o.age << ", has ";
 	switch (o.a)

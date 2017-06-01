@@ -2,7 +2,8 @@
 
 lang* In(ifstream &ifst);
 
-void In(container &c, ifstream &ifst) {
+void In(container &c, ifstream &ifst) 
+{
 	list* cur = c.cont;
 	if (c.cont == NULL)
 	{

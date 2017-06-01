@@ -21,6 +21,7 @@ void In(container &c, ifstream &ifst);
 void Out(container &c, ofstream &ofst);
 void Sort(container &c);
 void OutOnlyProced(container &c, ofstream &ofst);
+bool Compare(lang *first, lang *second);
 
 
 void CheckInFile(ifstream &file);

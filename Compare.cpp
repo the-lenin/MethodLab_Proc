@@ -1,5 +1,4 @@
-#include <stdio.h>
-#include "lang_atd.h"
+#include "main.h" 
 
 int YearsOld(lang &l);
 

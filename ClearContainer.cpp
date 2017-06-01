@@ -1,7 +1,8 @@
 #include "main.h" 
 
 
-void ClearContainer(container &c) {
+void ClearContainer(container &c) 
+{
 	list* a;
 	while (c.cont != NULL && c.NUM > 0)
 	{

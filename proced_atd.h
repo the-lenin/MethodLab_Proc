@@ -2,7 +2,8 @@
 
 #include "typ_atd.h"
 
-struct proced {
+struct proced 
+{
 	typ t;
 	short age;
 	int reference;

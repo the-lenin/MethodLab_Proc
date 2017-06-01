@@ -2,8 +2,8 @@
 
 
 
-void main(int arc, char* argv[]) {
-
+void main(int arc, char* argv[]) 
+{
 	string filein = argv[1], fileout = argv[2];
 	
 	if (arc != 3)
@@ -18,11 +18,11 @@ void main(int arc, char* argv[]) {
 	int fileSize = fin.tellg();
 	fin.seekg(0, std::ios::beg);
 	if (fileSize == 0)
-		 {
+	{
 		cout << "Error. Input file is empty." << endl;
 		system("pause");
 		exit(0);
-		}
+	}
 	
 	cout << "Start" << endl;
 	container c;

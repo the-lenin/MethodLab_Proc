@@ -2,11 +2,12 @@
 
 #include "typ_atd.h"
 
-struct oop {
+struct oop 
+{
 	typ t;
 	short age;
 	int reference;
 	
-	enum inheritance { single, multiple, interf };
+	enum inheritance { SINGLE, MULTIPLE, INTERF };
 	inheritance a;
 };

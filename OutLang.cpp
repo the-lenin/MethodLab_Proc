@@ -6,9 +6,11 @@ int YearsOld(lang &l);
 void Out(functional &f, ofstream &ofst);
 
 
-void Out(lang *l, ofstream &ofst) {
+void Out(lang *l, ofstream &ofst) 
+{
 	CheckOutFile(ofst);
-	switch (l->t) {
+	switch (l->t) 
+	{
 	case OOP:
 		Out(*((oop*)l), ofst);
 		break;
@@ -23,6 +25,5 @@ void Out(lang *l, ofstream &ofst) {
 	}
 	
 	ofst << " It is " << YearsOld(*l) << " years old." << endl;
-
 	ofst << "\tLanguage mentioned in the Inet " << l->reference << " times.";
 }

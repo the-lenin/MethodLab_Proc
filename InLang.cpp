@@ -4,7 +4,8 @@ void In(oop &o, ifstream &ifst);
 void In(proced &p, ifstream &ifst);
 void In(functional &f, ifstream &ifst);
 
-lang* In(ifstream &ifst) {
+lang* In(ifstream &ifst) 
+{
 
 	CheckInFile(ifst);
 	if (ifst.eof())

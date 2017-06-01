@@ -1,7 +1,8 @@
 #include "main.h"
 
 
-void Out(functional &f, ofstream &ofst) {
+void Out(functional &f, ofstream &ofst) 
+{
 	CheckOutFile(ofst);
 	ofst << "It is Functional language: Invented in " << f.age << ", has ";
 	switch (f.typ)

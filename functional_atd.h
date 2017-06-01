@@ -2,7 +2,8 @@
 
 #include "typ_atd.h"
 
-struct functional {
+struct functional 
+{
 	typ t;
 	short age;
 
