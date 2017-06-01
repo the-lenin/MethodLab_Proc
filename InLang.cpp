@@ -22,7 +22,7 @@ lang* In(ifstream &ifst)
 	int type;
 	ifst >> type;
 	CheckInValue(ifst);
-	CheckNegative(type);
+	CheckTyp(type);
 	if (type > 2)
 	{
 		cout << "Error. Incorrect values. The key can take the values 0, 1, 2." << endl;

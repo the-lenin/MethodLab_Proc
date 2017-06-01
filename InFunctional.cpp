@@ -6,7 +6,7 @@ void In(functional &f, ifstream &ifst)
 	int typific;
 	ifst >> typific;
 	CheckInValue(ifst);
-	CheckNegative(typific);
+	CheckTypification(typific);
 	if (typific > 1)
 	{
 		cout << "Error. Incorrect values. Typification can be 0 or 1." << endl;

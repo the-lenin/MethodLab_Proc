@@ -40,3 +40,33 @@ void CheckOutFile(ofstream &file)
 		exit(1);
 	}
 }
+
+void CheckTyp(int t)
+{
+	if (t < 0 || t > 2)
+	{
+		cout << "Invalid enum type value." << endl;
+		system("pause");
+		exit(1);
+	}
+}
+
+void CheckTypification(int t)
+{
+	if (t < 0 || t > 1)
+	{
+		cout << "Invalid enum typification value." << endl;
+		system("pause");
+		exit(1);
+	}
+}
+
+void CheckInheritance(int t)
+{
+	if (t < 0 || t > 2)
+	{
+		cout << "Invalid enum inheritance value." << endl;
+		system("pause");
+		exit(1);
+	}
+}

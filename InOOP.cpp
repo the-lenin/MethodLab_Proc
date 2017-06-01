@@ -6,7 +6,7 @@ void In(oop &o, ifstream &ifst)
 	int inh;
 	ifst >> inh;
 	CheckInValue(ifst);
-	CheckNegative(inh);
+	CheckInheritance(inh);
 	switch (inh)
 	{
 	case 0:

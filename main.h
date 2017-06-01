@@ -28,4 +28,7 @@ void CheckInFile(ifstream &file);
 void CheckInValue(ifstream &file);
 void CheckNegative(float value);
 void CheckOutFile(ofstream &file);
+void CheckInheritance(int t);
+void CheckTypification(int t);
+void CheckTyp(int t);
 
