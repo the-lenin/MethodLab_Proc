@@ -3,7 +3,9 @@
 
 void In(oop &o, ifstream &ifst) {
 	int inh;
-	ifst >> o.age >> inh;
+	ifst >> inh;
+	CheckInValue(ifst);
+	CheckNegative(inh);
 	switch (inh)
 	{
 	case 0:

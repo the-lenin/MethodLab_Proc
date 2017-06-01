@@ -2,5 +2,7 @@
 
 
 void In(proced &p, ifstream &ifst) {
-	ifst >> p.age >> p.abstr;
+	ifst >> p.abstr;
+	CheckInValue(ifst);
+	CheckNegative(p.abstr);
 }

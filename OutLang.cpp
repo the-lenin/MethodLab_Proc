@@ -7,14 +7,13 @@ void Out(functional &f, ofstream &ofst);
 
 
 void Out(lang *l, ofstream &ofst) {
+	CheckOutFile(ofst);
 	switch (l->t) {
 	case OOP:
 		Out(*((oop*)l), ofst);
-		ofst << "\tLanguage mentioned in the Inet " << l->reference << " times.";
 		break;
 	case PROCED:
 		Out(*((proced*)l), ofst);
-		ofst << "\tLanguage mentioned in the Inet " << l->reference << " times.";
 		break;
 	case FUNCTIONAL:
 		Out(*((functional*)l), ofst);
@@ -22,5 +21,8 @@ void Out(lang *l, ofstream &ofst) {
 	default:
 		ofst << "Incorrect language!" << endl;
 	}
-	ofst << "It is " << YearsOld(*l) << " years old." << endl;
+	
+	ofst << " It is " << YearsOld(*l) << " years old." << endl;
+
+	ofst << "\tLanguage mentioned in the Inet " << l->reference << " times.";
 }
