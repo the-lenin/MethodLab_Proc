@@ -1,0 +1,3 @@
+Container contains 1 elements.
+1 :  It is Functional language: Invented in 1950, has exact typification and support 'lazy' calculating.  It is 67 years old.
+	Language mentioned in the Inet 100000 times.

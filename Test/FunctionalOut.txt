@@ -1,0 +1,1 @@
+It is Functional language: Invented in 1998, has dynamic typification and support 'lazy' calculating. 

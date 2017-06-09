@@ -1,0 +1,2 @@
+It is Functional language: Invented in 1950, has exact typification and don't support 'lazy' calculating.  It is 67 years old.
+	Language mentioned in the Inet 6500 times.

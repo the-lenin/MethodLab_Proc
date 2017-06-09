@@ -1,0 +1,1 @@
+It is OOP language: Invented in 1991, has interface inharitance.

@@ -1,0 +1,2 @@
+It is OOP language: Invented in 1920, has multiple inharitance. It is 97 years old.
+	Language mentioned in the Inet 700 times.

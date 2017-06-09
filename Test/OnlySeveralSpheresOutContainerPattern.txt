@@ -1,0 +1,9 @@
+Only procedural.
+1: 
+2: This is Procedural language: Invented in 1995, have abstract types of data. It is 22 years old.
+	Language mentioned in the Inet 500 times.
+3: 
+4: 
+5: This is Procedural language: Invented in 1990, don't have abstract types of data. It is 27 years old.
+	Language mentioned in the Inet 20000 times.
+6: 
