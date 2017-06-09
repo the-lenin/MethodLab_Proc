@@ -23,6 +23,10 @@ void Sort(container &c);
 void OutOnlyProced(container &c, ofstream &ofst);
 bool Compare(lang *first, lang *second);
 
+void MultiMethod(container* c, ofstream &file);
+int YearsOld(lang &l);
+
+void Out(lang *l, ofstream &ofst);
 
 void CheckInFile(ifstream &file);
 void CheckInValue(ifstream &file);
